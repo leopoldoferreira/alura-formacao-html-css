@@ -1,0 +1,12 @@
+p{
+    text-align: center;
+    /* background: #cccccc; */
+}
+
+body{
+    background: #cccccc;
+}
+
+em strong{  /* somente strongs dentro de em */
+    color: red;
+}
