@@ -3,6 +3,7 @@ body {
 }
 .principal {
     background: #cccccc;
+    padding: 30px;
 }
 
 #banner {
@@ -32,8 +33,20 @@ em strong {  /* somente strongs dentro de em */
 
 .beneficios{
     background-color: #ffffff;
+    padding: 20px;
 }
 
 h2 {
     text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
 }
