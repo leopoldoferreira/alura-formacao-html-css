@@ -1,30 +1,76 @@
-body {
-
+header {
+    background: #BBBBBB;
+    padding: 10px 0;
 }
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.nav-bar ul li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.nav-bar a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
 .principal {
     background: #cccccc;
-    padding: 30px;
-}
-
-.titulo-principal {
-    padding-left: 20px;
+    width: 940px;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 #banner {
     width: 100%;
 }
 
-.titulo-centralizado {
+.principal h2 {
     text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 10px;
 }
-
-p {
+#p1 {
     text-align: center;
-    /* background: #cccccc; */
+    font-size: 15px;
+}
+.principal h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 5px 0px 5px 0px;
+}
+#p2 {
+    text-align: center;
+    font-size: 15px;
+}
+#p3 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
 }
 
 #missao {
-    font-size: 20px
+    font-size: 16px
 }
 
 em strong {  /* somente strongs dentro de em */
@@ -41,7 +87,7 @@ em strong {  /* somente strongs dentro de em */
 }
 
 
-ul {
+.beneficios ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
@@ -50,4 +96,16 @@ ul {
 
 .imagembeneficios {
     width: 50%;
+}
+
+footer {
+    text-align: center;
+    background: url("./imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
 }
