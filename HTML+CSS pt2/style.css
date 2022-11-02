@@ -7,18 +7,15 @@ header {
     width: 940px;
     margin: 0 auto;
 }
-
 .nav-bar {
     position: absolute;
     top: 110px;
     right: 0;
 }
-
 .nav-bar ul li{
     display: inline;
     margin: 0 0 0 15px;
 }
-
 .nav-bar a {
     text-transform: uppercase;
     color: #000000;
@@ -26,84 +23,76 @@ header {
     font-size: 22px;
     text-decoration: none;
 }
-
 .nav-bar a:hover {
     color: #C78C19;
     text-decoration: underline;
 }
-
-.principal {
-    background: #cccccc;
-    width: 940px;
-    padding: 10px;
-    margin: 0 auto;
+main {
+    display: block;
+    margin: 8px;
 }
-
 #banner {
     width: 100%;
 }
-
-.principal h2 {
-    text-align: center;
-    font-size: 23px;
-    font-weight: bolder;
-    margin-bottom: 10px;
+.principal {
+    background: #cccccc;
+    padding: 30px;
 }
-#p1 {
-    text-align: center;
-    font-size: 15px;
+.titulo-principal {
+	padding-left: 20px;
 }
-.principal h3 {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
-    margin: 5px 0px 5px 0px;
+.titulo-centralizado {
+	text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 40px;
 }
-#p2 {
-    text-align: center;
-    font-size: 15px;
+p {
+    font-size: 25px;
+	text-align: center;
+    margin: 16px;
 }
-#p3 {
-    padding-top: 20px;
-    text-align: center;
-    font-size: 15px;
-}
-
 #missao {
-    font-size: 16px
+	font-size: 25px
 }
-
-em strong {  /* somente strongs dentro de em */
-    color: red;
+strong {
+    font-weight: bold;
 }
-
-.itens {
+em {
     font-style: italic;
 }
+em strong {
+	color: #FF0000;
 
+}
+.itens {
+    font-style: italic;
+    list-style-position: inside;
+    margin-bottom: 5px;
+    text-align: center;
+}
 .beneficios{
     background-color: #ffffff;
-    padding: 20px;
+    padding-top: 10px;
+    font-size: larger;
 }
-
-
 .beneficios ul {
-    display: inline-block;
+    display: inline;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    font-size: 22px;
 }
-
 .imagembeneficios {
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
 }
-
 footer {
     text-align: center;
     background: url("./imagens/bg.jpg");
     padding: 40px 0;
 }
-
 .copyright {
     color: #ffffff;
     font-size: 13px;
