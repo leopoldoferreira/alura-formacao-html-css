@@ -105,10 +105,20 @@ form label, form p {
     margin: 0 0 10px;
 }
 
-form input, form textarea {
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
 
+.checkbox {
+    margin: 20px 0;
+}
+
+/* htmlinline > id > class > tag
+p { color:red; }
+form p { color: blue; }
+.teste { color: yellow; }
+p.teste { color: orange; }
+#teste { color: pink; } */
