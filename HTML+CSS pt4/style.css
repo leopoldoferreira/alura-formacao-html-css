@@ -260,7 +260,7 @@ p:first-line {
     font-weight: bold;
 } */
 .itens:before{
-    content: "★";
+    content: "★ ";
 }
 
 .imagem-beneficios {
@@ -271,3 +271,17 @@ p:first-line {
     width: 560px;
     margin: 2em auto;
 }
+
+/* Seletores avançados */
+/* selecione o filho direto de main */.
+/* próximo irmão depois de um elemento */
+/* selecione todos os parágrafos depois de uma imagem  */
+/* seletores avançados tem a mesma "força" os parágrafos após imagens seria amarelo */
+/* selecione todos os parágrafos que não sejam missão */
+/* main > p { background: red; }
+img + p { background: blue; }
+img ~ p { background: yellow; }
+.principal p:not(#missao) { background: orange; }  */
+
+/*css permite calculo dinâmico de tamanho para responsividade*/
+/*width: calc(40% - (26px * 4)*/
