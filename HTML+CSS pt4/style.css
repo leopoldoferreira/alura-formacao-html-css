@@ -287,7 +287,7 @@ p:first-line {
 }
 
 /* Seletores avançados */
-/* selecione o filho direto de main */.
+/* selecione o filho direto de main */
 /* próximo irmão depois de um elemento */
 /* selecione todos os parágrafos depois de uma imagem  */
 /* seletores avançados tem a mesma "força" os parágrafos após imagens seria amarelo */
@@ -297,5 +297,25 @@ img + p { background: blue; }
 img ~ p { background: yellow; }
 .principal p:not(#missao) { background: orange; }  */
 
-/*css permite calculo dinâmico de tamanho para responsividade*/
-/*width: calc(40% - (26px * 4)*/
+/* css permite calculo dinâmico de tamanho para responsividade */
+/*width: calc(40% - (26px \* 4)*/
+
+
+/* media queries */
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
