@@ -139,4 +139,19 @@ p.teste { color: orange; }
 .enviar:hover {
     background-color: darkorange;
     transform: scale(1.2);
+    /* transform: rotate(360deg); */
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
 }
