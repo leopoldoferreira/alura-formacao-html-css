@@ -1,0 +1,3 @@
+Na aula anterior, no exercício Faça como eu fiz: Exercitando o grid foi desenvolvido uma página com vários elementos de tamanhos e cores diferentes, posicionados em diferentes partes da página utilizando as propriedades de grid. Porém, os espaços entre elementos foram criados com a propriedade margin. Nós já discutimos as grandes vantagens de trabalhar com grid.
+
+Substitua essas propriedades margin por novas propriedades do grid.
