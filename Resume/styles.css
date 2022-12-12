@@ -1,0 +1,26 @@
+@import url("assets/styles/header.css");
+@import url("assets/styles/banner.css");
+@import url("assets/styles/content.css");
+
+@font-face { 
+    font-family: 'Icons'; 
+    src: url(../font/icons.ttf); 
+}
+
+:root {
+    --background-color: #F8F9FA;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --main-font: "Open Sans";
+    --secondary-font: "Merriweather";
+    --icons-font: "Icons"
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--main-font), sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
