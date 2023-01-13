@@ -4,4 +4,4 @@ HTML and CSS are important because they are the building blocks of the web. HTML
 
 As a way of practicing what I've learn, i've built my Resume page, its simple but I loved it, I've a long way to go in my web dev journey, but its a nice start.
 
-[leopoldoferreira.github.io/html-css-cursos/](page)
+[https://leopoldoferreira.github.io/html-css-cursos/](page)
